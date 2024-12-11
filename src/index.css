@@ -1,0 +1,499 @@
+body{
+  padding: 0 0;
+  margin: 0 0;
+  background-color: #142897;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 12rem;
+}
+
+.dashBoardContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(1, 2, 44);
+  margin: 0 0;
+  padding: 0 1rem;
+}
+
+.dashBoardLinks{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 5%;
+}
+
+.navLinkInActive{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding: .3rem .4rem;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 5px rgb(196, 196, 197);
+  background-color: blue;
+}
+
+.navLinkActive{
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding: .3rem .4rem;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 10px rgb(196, 196, 197);
+  background-color: white;
+  font-weight: bolder;
+}
+
+.buttonLogout{
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.buttonLogoutInactive{
+  background-color: transparent;
+  border: transparent;
+  color: gray;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.firstContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(1, 2, 44);
+  padding: 0 1rem;
+}
+
+.footerLogo{
+  display: inline;
+  margin: 1rem 1rem;
+  border-radius: 10px;
+  border: .01rem solid white;
+  box-shadow: white 0 0 20px;
+}
+
+.LogoFooter{
+  width: 7rem;
+  height: 3.5rem;
+  border-radius: 10px;
+}
+
+.Logo{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+}
+
+.redesSocialesContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 1rem;
+}
+
+.hr{
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+hr{
+  margin: 0 0;
+  width: 100%;
+  color: white;
+}
+
+.SecondContainer{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(1, 2, 44);
+  padding: 2rem 3rem;
+}
+
+.textFooter{
+  text-align: center;
+}
+
+.linksFooter{
+  text-decoration: none;
+  color: white
+}
+
+.categoryPhoto{
+  width: 16rem;
+  height: 16rem;
+  border-radius: 10px;
+}
+
+.categoryText{
+  text-align: center;
+}
+
+.categoriesContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.categoyContainer:hover{
+  scale: 1.2;
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem white;
+}
+
+.productsContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+.productContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  background-color: #2534b6;
+  border-radius: 5px;
+}
+
+.productPhoto{
+  width: 100%;
+  height: 15rem;
+  border-radius: 10px;
+}
+
+.titleProduct{
+  text-align: center;
+}
+
+.buttonProduct{
+  height: 2.2rem;
+  color: white;
+  font-size: .9rem;
+  padding: .3rem;
+  text-align: center;
+  background-color: transparent;
+  border: .1rem solid rgb(1, 1, 43);
+  border-radius: 5px;
+}
+
+.buttonPrice{
+  height: 2.2rem;
+  color: white;
+  font-size: .9rem;
+  padding: .3rem;
+  text-align: center;
+  background-color: transparent;
+  border: .1rem solid rgb(1, 1, 43);
+  border-radius: 5px;
+}
+
+.productContainer:hover{
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+}
+
+.productContainer:hover .buttonProduct{
+  color: blue;
+  text-align: center;
+  background-color: white;
+}
+
+.productContainer:hover .buttonPrice{
+  color: blue;
+  text-align: center;
+  background-color: white;
+}
+
+.productContainer:hover .buttonProduct:hover{
+  background-color: #142897;
+  color: white;
+  font-weight: bold;
+}
+
+.ProductReviewContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  border: .1rem solid white;
+  border-radius: 10px;
+}
+
+.photoProductReview{
+  width: 40%;
+  height: 40vh;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.productDetails{
+  height: 100%;
+  width: 100%;
+}
+
+.titleProductReview{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.buttonAddToCartProductReview{
+  height: 2.2rem;
+  color: white;
+  font-size: .9rem;
+  padding: .3rem;
+  text-align: center;
+  background-color: transparent;
+  border: .1rem solid rgb(1, 1, 43);
+  border-radius: 5px;
+}
+
+.buttonAddToCartProductReview:hover{
+  background-color: white;
+  color: #142897;
+  font-weight: bold;
+}
+
+.buttonClear{
+  background-color: darkblue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: large;
+  height: 2.5rem;
+  padding: .6rem;
+  text-align: center;
+}
+
+.buttonClear:hover{
+  scale: 1.2;
+  background-color: darkred;
+  font-weight: bolder;
+  border: 2px solid white;
+  box-shadow: 0 0 50px red;
+  padding: .5rem;
+  text-shadow: 0 0 10px black;
+}
+
+.itemCartContainer{
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  align-items: center;
+  padding: 1rem 4rem;
+  margin: 0 14rem;
+  border-bottom: 1px solid darkgray;
+}
+
+.itemPhotoCart{
+  border-radius: 10px;
+  height: 8rem;
+  width: auto;
+}
+
+.buttonsModifyAmountCartItem{
+  background-color: #142897;
+  color: white;
+  padding: .5rem;
+  height: auto;
+  width: auto;
+  border: .2rem solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.buttonsModifyAmountCartItem:hover{
+  background-color: #511497;
+}
+
+.itemAmountCart{
+  background-color: #142897;
+  color: white;
+  height: auto;
+  width: auto;
+  border: none;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.redirectToPayContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.labelToPayCart{
+  font-size: xx-large;
+}
+
+.buttonRedirectToPay{
+  background-color: #142897;
+  color: white;
+  padding: .5rem;
+  height: auto;
+  width: auto;
+  border: .2rem solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.buttonRedirectToPay:hover{
+  background-color: white;
+  color: #142897;
+  border: transparent;
+  box-shadow: 0 0 10px white;
+}
+
+.aboutContainer{
+  padding: 1rem 6rem;
+  text-align: justify;
+}
+
+.headerAbout{
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.textAbout{
+  font-size: larger;
+  padding: 0 .6rem;
+}
+
+.titlesAbout{
+  font-size: 2rem;
+}
+
+.loginContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 30%;
+  border: .3rem solid white;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: rgb(1, 2, 44);
+}
+
+.loginContainer form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.itemFormLoginContainer{
+  display: grid;
+  grid-template-columns: .5fr 1.5fr;
+  align-items: center;
+}
+
+.buttonsOPtionsLogin{
+  display: grid;
+  width: 100%;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.labelLoginContainer{
+  font-size: 1.2rem;
+}
+
+input{
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.resetLogin{
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: .2rem solid white;
+  border-radius: 5px;
+}
+
+.submitLogin{
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: .2rem solid white;
+  border-radius: 5px;
+}
+
+.submitLogin:hover{
+  background-color: white;
+  color: #142897;
+  border: .2rem solid rgb(1, 2, 44);
+  box-shadow: 0 0 10px white;
+}
+
+.resetLogin:hover{
+  background-color: red;
+  border: .2rem solid rgb(1, 2, 44);
+  box-shadow: 0 0 10px red;
+}
+
+.headerPaymentPage{
+  text-align: center;
+  margin: 3rem;
+  font-size: 2.5rem;
+}
+
+.payButton{
+  background-color: transparent;
+  border: .2rem solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
+  margin: 1rem auto;
+}
+
+.payButton:hover{
+  background-color: white;
+  border: .2rem solid #142897;
+  border-radius: 5px;
+  color: #142897;
+  box-shadow: 0 0 10px white;
+}

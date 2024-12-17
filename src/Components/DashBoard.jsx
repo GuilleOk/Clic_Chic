@@ -7,7 +7,10 @@ const DashBoard = () => {
   const {isLogged, isLogout} = useContext(AuthContext)
   return (
     <div className="dashBoardContainer">
-      <h2 style={{color: 'white', fontFamily: 'verdana'}}>Guille's ECommerce</h2>
+      {/* <h2 style={{color: 'white', fontFamily: 'verdana'}}>Guille's ECommerce</h2> */}
+      <div>
+        <img src="/public/LOGO OK.png" alt="Logo" style={{height: '11vh', width: 'auto', marginLeft: '1rem'}} />
+      </div>
       <nav className="dashBoardLinks">
         <div>
           <NavLink to='/' className={({isActive}) => isActive ? 'navLinkActive' : 'navLinkInActive'}>Home</NavLink>

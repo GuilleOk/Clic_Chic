@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='footer'>
       <div className="firstContainer">
         <div className="footerLogo">
-          <img src="Logo tienda.png" alt="Logo" className="LogoFooter" />
+          <img src="/public/LOGO OK.png" alt="Logo" className="LogoFooter" />
         </div>
         <div className="redesSocialesContainer">
           <div><a href="..."><img src="redes_sociales/facebook_2504903.png" alt="facebook" className="Logo" /></a></div>

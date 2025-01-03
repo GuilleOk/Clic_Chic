@@ -2,11 +2,11 @@
 const AboutPage = () => {
   return (
     <div>
-      <img src="/public/Nosotros.jpg" alt="about us" style={{width: '100%', height: '45vh'}} />
+      <img src="images/Nosotros.jpg" alt="about us" style={{width: '100%', height: '45vh'}} />
       <div className="aboutContainer">
       <h1 className="headerAbout">Welcome to Click and Chic</h1>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1.5rem'}}>
-        <img src="/public/nosotrosMision.jpg" alt="Mision" style={{width: '30%', height: '10rem', borderRadius: '10px'}} />
+        <img src="images/nosotrosMision.jpg" alt="Mision" style={{width: '30%', height: '10rem', borderRadius: '10px'}} />
         <p className="textAbout">At Click and Chic, our mission is to provide you with an exceptional shopping experience where quality, fashion, and technology come together. Founded with the vision of being your trusted online store, we specialize in offering a carefully curated selection of electronic devices, jewelry, and clothing for all styles and occasions.</p>      
       </div>
       <h2 className="titlesAbout">Our Story</h2>
@@ -29,24 +29,24 @@ const AboutPage = () => {
       <p className="textAbout">We are committed to providing you with an unparalleled shopping experience. Our team is here to help you every step of the way, from choosing the perfect product to after-sales service. Your satisfaction is our top priority.</p>
       <h2 className="titlesAbout">Connect with Us</h2>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1.5rem'}}>
-        <img src="/Contáctenos copia.png" alt="Contact with us" style={{height: '30vh'}} />
+        <img src="images/Contáctenos copia.png" alt="Contact with us" style={{height: '30vh'}} />
         <div>
         <p className="textAbout">We invite you to explore our store and discover everything Click and Chic has to offer. If you have any questions or need assistance, do not hesitate to contact us. We are here to help you find exactly what you're looking for.</p>        
         <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)'}}>
           <div style={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
-            <img src="/icons8-delivery-pin-for-parcel-delivery-location-making-96.png" alt="address" style={{height: '70%'}} />
+            <img src="images/icons8-delivery-pin-for-parcel-delivery-location-making-96.png" alt="address" style={{height: '70%'}} />
             <div>
               <p><strong>Calle X # Y</strong></p>
             </div>
           </div>
           <div style={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
-            <img src="/icons8-teléfono-celular-64.png" alt="telef" />
+            <img src="images/icons8-teléfono-celular-64.png" alt="telef" />
             <div>
               <p><strong>123 456 7890</strong></p>
             </div>
           </div>
           <div style={{display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
-            <img src="/public/icons8-email-80.png" alt="email" style={{height: '70%'}} />
+            <img src="images/icons8-email-80.png" alt="email" style={{height: '70%'}} />
             <div>
               <p><strong>clickandchic@gmail.com</strong></p>
             </div>

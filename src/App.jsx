@@ -23,6 +23,7 @@ const App = () => {
             <DashBoard />
             <Routes>
               <Route path="/" element={<CategorysPage />} />
+              <Route path="/index.html" element={<CategorysPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/login" element={<LoginPage />} />

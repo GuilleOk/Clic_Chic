@@ -9,7 +9,7 @@ const DashBoard = () => {
     <div className="dashBoardContainer">
       {/* <h2 style={{color: 'white', fontFamily: 'verdana'}}>Guille's ECommerce</h2> */}
       <div>
-        <img src="/public/LOGO OK.png" alt="Logo" style={{height: '11vh', width: 'auto', marginLeft: '1rem'}} />
+        <img src="images/LOGO_OK.png" alt="Logo" style={{height: '11vh', width: 'auto', marginLeft: '1rem'}} />
       </div>
       <nav className="dashBoardLinks">
         <div>

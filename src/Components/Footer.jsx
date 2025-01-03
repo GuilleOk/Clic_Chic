@@ -5,14 +5,14 @@ const Footer = () => {
     <div className='footer'>
       <div className="firstContainer">
         <div className="footerLogo">
-          <img src="/public/LOGO OK.png" alt="Logo" className="LogoFooter" />
+          <img src="images/LOGO_OK.png" alt="Logo" className="LogoFooter" />
         </div>
         <div className="redesSocialesContainer">
-          <div><a href="..."><img src="redes_sociales/facebook_2504903.png" alt="facebook" className="Logo" /></a></div>
-          <div><a href="..."><img src="redes_sociales/instagram_2111463.png" alt="instagram" className="Logo" /></a></div>
-          <div><a href="..."><img src="redes_sociales/linkedin_3536505.png" alt="linkedin" className="Logo" /></a></div>
-          <div><a href="..."><img src="redes_sociales/twitter_2504947.png" alt="twitter" className="Logo" /></a></div>
-          <div><a href="..."><img src="redes_sociales/youtube_3938037.png" alt="youtube" className="Logo" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/facebook_2504903.png" alt="facebook" className="Logo" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/instagram_2111463.png" alt="instagram" className="Logo" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/linkedin_3536505.png" alt="linkedin" className="Logo" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/twitter_2504947.png" alt="twitter" className="Logo" /></a></div>
+          <div><a href="..."><img src="images/redes_sociales/youtube_3938037.png" alt="youtube" className="Logo" /></a></div>
         </div>
       </div>
       <div className="hr">

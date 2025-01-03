@@ -31,7 +31,6 @@ const CategorysPage = () => {
       for (const product of products) {
         addItem({ contentToAdd: products, category: product.category });
       }
-      console.log('allProducts: ', allProducts)
   }, [products])
 
   const handlerClicCategory = ({category}) => {
@@ -40,6 +39,7 @@ const CategorysPage = () => {
 
   return (
     <div>
+      <img src="images/banner portada copia.jpg" alt="banner portada" style={{boxShadow: '0 6px 15px white', width:'100%'}} />
       <h1 style={{textAlign: 'center', fontSize: '2.5rem'}}>CATEGORIES</h1>
       <div className="categoriesContainer">
         {
@@ -53,6 +53,36 @@ const CategorysPage = () => {
           })
         }
       </div>
+      <img src="images/Banner electrónicos.jpg" alt="banner productos electrónicos" style={{ width: '100%', height: '12rem', boxShadow: '0 0  15px white' }} />
+      <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', marginBottom: '2rem'}}>
+        <div style={{display: 'grid',gridTemplateColumns: 'repeat(3, 1fr)', gap: '10vw' ,alignContent: 'center', marginTop: '2rem'}}>
+          <div style={{ background: 'rgb(183, 210, 252)', border: '.1rem solid white', boxShadow: '0 0 10px white', borderRadius: '10px', width: '15rem', height: 'auto'}}>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '1.1rem'}}>
+              <img src="images/best prices.jpg" alt="banner prices" style={{height: '17rem', width: 'auto'}} />
+            </div>
+            <div>
+              <p style={{textAlign: 'center', color: 'black', fontWeight: 'bold', fontSize: '1.1rem'}}>Los mejores precios, siempre al alcance de tu bolsillo.</p>
+            </div>
+          </div>
+          <div style={{ background: 'rgb(183, 210, 252)', border: '.1rem solid white', boxShadow: '0 0 10px white', borderRadius: '10px', width: '15rem', height: 'auto'}}>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '1.1rem'}}>
+              <img src="/public/images/velocidad y seguridad.jpg" alt="speed and velocity" style={{height: '17rem', width: 'auto'}} />
+            </div>
+            <div>
+              <p style={{textAlign: 'center', color: 'black', fontWeight: 'bold', fontSize: '1.1rem'}}>Rápido, confiable y seguro: compra con tranquilidad.</p>
+            </div>
+          </div>
+          <div style={{ background: 'rgb(183, 210, 252)', border: '.1rem solid white', boxShadow: '0 0 10px white', borderRadius: '10px', width: '15rem', height: 'auto'}}>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '1.1rem'}}>
+              <img src="/public/images/devoluciones.jpg" alt="devolutions" style={{height: '17rem', width: 'auto'}} />
+            </div>
+            <div>
+              <p style={{textAlign: 'center', color: 'black', fontWeight: 'bold', fontSize: '1.1rem'}}>Devoluciones fáciles, compras sin preocupaciones.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/Banner JOYAS.jpg" alt="banner jewerly" style={{ width: '100%', height: '12rem', boxShadow: '0 0  15px white' }} />
     </div>
   )
 }

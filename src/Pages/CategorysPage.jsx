@@ -66,7 +66,7 @@ const CategorysPage = () => {
           </div>
           <div style={{ background: 'rgb(183, 210, 252)', border: '.1rem solid white', boxShadow: '0 0 10px white', borderRadius: '10px', width: '15rem', height: 'auto'}}>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '1.1rem'}}>
-              <img src="/public/images/velocidad_seguridad.jpg" alt="speed and velocity" style={{height: '17rem', width: 'auto'}} />
+              <img src="images/velocidad.jpg" alt="speed and velocity" style={{height: '17rem', width: 'auto'}} />
             </div>
             <div>
               <p style={{textAlign: 'center', color: 'black', fontWeight: 'bold', fontSize: '1.1rem'}}>Rápido, confiable y seguro: compra con tranquilidad.</p>
@@ -74,7 +74,7 @@ const CategorysPage = () => {
           </div>
           <div style={{ background: 'rgb(183, 210, 252)', border: '.1rem solid white', boxShadow: '0 0 10px white', borderRadius: '10px', width: '15rem', height: 'auto'}}>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'flex-start', marginTop: '1.1rem'}}>
-              <img src="/public/images/devoluciones.jpg" alt="devolutions" style={{height: '17rem', width: 'auto'}} />
+              <img src="images/devoluciones.jpg" alt="devolutions" style={{height: '17rem', width: 'auto'}} />
             </div>
             <div>
               <p style={{textAlign: 'center', color: 'black', fontWeight: 'bold', fontSize: '1.1rem'}}>Devoluciones fáciles, compras sin preocupaciones.</p>
